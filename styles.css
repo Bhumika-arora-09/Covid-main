@@ -1,0 +1,158 @@
+
+
+.container-fluid{
+  padding: 0% 13% 7%;
+}
+
+/* navigation bar */
+.navbar{
+  padding-bottom: 2.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+
+h4{
+  font-weight: 650;
+  color:teal;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
+}
+#title{
+  background-color:#93da97;
+  color: white;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 0;
+}
+
+.btnDownload{
+  color: white;
+  margin: 3% 5% 5% 0;
+  position: absolute;
+  top:210px;
+  left:400px;
+  height: 45px;
+}
+.title-img{
+  margin-left: 50px;
+  float:right;
+  padding-left: 40px;
+  width:30%;
+  height:80%;
+  position: absolute;
+  top: 80px;
+  right: 250px;
+}
+@media (max-width :997px) {
+  #title{
+    text-align: center;
+  }
+.title-img  {
+    position: static;
+  transform: rotate(0);
+  width: 50%;
+  float:left;
+}
+.btnDownload{
+  position: relative;
+  top:5px;
+  left:15px;
+}
+iframe{
+  width: 400px;
+  height: 255px;
+}
+}
+
+.title-heading{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 5px;
+  line-height: 1.5;}
+h5{
+  margin-bottom: 20px;}
+
+
+#mid{
+  margin-top: 80px;
+  text-align: center;
+  position :relative;
+  z-index: 1;
+  margin-bottom: 100px;
+}
+.mid-img{
+  width: 20%;
+  size: 5px;;
+  padding: 10px;
+}
+
+.mid-h2{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 2.5rem;
+  color:teal;
+}
+
+.mid-p{
+  color: #eca3f5;
+  font-size: 2rem;
+}
+.container-end{
+  
+  size:inherit;
+}
+#end{
+  padding-top: 10px;
+  background-color: #93da97;
+padding-bottom: 0;
+}
+.end-img{
+width:50%;
+position: relative;
+left: 100px;
+transition: all 0.05s;
+}
+
+.end-heading{
+  
+  color: white;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.list{
+  padding-top: 20px;
+  color: white;
+font-size: 1.5rem;
+line-height: 2;
+}
+
+#footer{
+  background-color:  #93da97;
+  text-align: center;
+  margin: 0 0 0 0;
+}
+.foot-img{
+  padding: 0px 15px 15px 10px;
+}
+.foot{
+  margin-bottom: 0;
+}
+
+a {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
